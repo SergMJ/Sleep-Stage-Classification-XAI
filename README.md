@@ -1,5 +1,6 @@
 # Sleep-Stage-Classification-XAI
-This project focuses on replicating [a paper about predicting sleep stages](https://ieeexplore.ieee.org/abstract/document/11429301) published in the IEEE International Conference on Electrical, Computer & Telecommunication Engineering in 2026.
+This project focuses on replicating [Automated Multi-Stage Sleep Classification Using
+Wrist-Worn Photoplethysmography Signal](https://ieeexplore.ieee.org/abstract/document/11429301), a paper about predicting sleep stages published in the IEEE International Conference on Electrical, Computer & Telecommunication Engineering in 2026.
 In general terms, it consists on analysing the public dataset [DREAMT](https://physionet.org/content/dreamt/1.0.0/), which contains loads of information extracted by wearable devices about sleep based features, such as heartbeat rate (BVP), temperature, acceleration on each axe and even sleep related diseases, among others. The process consists on:
 1. Perform an initial data cleaning and standarize wave patterns to ensure a proper analysis on following steps.
 2. Extract features, mostly based on the BVP column, that will be used in the prediction stage.
